@@ -4,7 +4,8 @@
   "description": "macaca datahub proxy middleware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "prepublishOnly": "babel -d ./ ./src/ "
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/likun7981/datahub-middleware/issues"
-  },
-  "scripts": {
-    "prepublishOnly": "babel -d ./ ./src/ "
   },
   "homepage": "https://github.com/likun7981/datahub-middleware#readme",
   "dependencies": {
