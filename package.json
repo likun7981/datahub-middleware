@@ -1,0 +1,44 @@
+{
+  "name": "datahub-middleware",
+  "version": "1.0.0",
+  "description": "macaca datahub proxy middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likun7981/datahub-middleware.git"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "datahub",
+    "proxy",
+    "middleware"
+  ],
+  "author": "likun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/likun7981/datahub-middleware/issues"
+  },
+  "homepage": "https://github.com/likun7981/datahub-middleware#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "deasync-promise": "^1.0.1",
+    "detect-port": "^1.3.0",
+    "eslint": ">=5.0.0",
+    "http-proxy-middleware": "^0.19.1",
+    "lodash.isplainobject": "^4.0.6",
+    "macaca-datahub": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": ">=2.13.0",
+    "eslint-plugin-node": ">=7.0.0",
+    "eslint-plugin-promise": ">=4.0.0",
+    "eslint-plugin-standard": ">=4.0.0"
+  }
+}
