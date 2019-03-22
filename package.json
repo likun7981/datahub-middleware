@@ -1,10 +1,10 @@
 {
   "name": "datahub-middleware",
-  "version": "1.0.0",
+  "version": "0.0.9",
   "description": "macaca datahub proxy middleware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
