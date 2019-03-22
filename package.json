@@ -24,8 +24,12 @@
   "bugs": {
     "url": "https://github.com/likun7981/datahub-middleware/issues"
   },
+  "scripts": {
+    "prepublishOnly": "babel -d ./ ./src/ "
+  },
   "homepage": "https://github.com/likun7981/datahub-middleware#readme",
   "dependencies": {
+    "@babel/cli": "^7.2.3",
     "assert": "^1.4.1",
     "deasync-promise": "^1.0.1",
     "detect-port": "^1.3.0",
@@ -35,6 +39,8 @@
     "macaca-datahub": "^2.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "7.4.2",
     "eslint-config-standard": "12.0.0",
     "eslint-plugin-import": ">=2.13.0",
     "eslint-plugin-node": ">=7.0.0",
